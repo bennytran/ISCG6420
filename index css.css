@@ -1,0 +1,282 @@
+
+
+
+/* Tour name */
+#welcome{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#menu td, #menu tr, #menu th, #menu table{
+    border: 1px solid black;
+    padding: 15px;
+    padding-left: 20px;
+}
+
+
+/* nav bar */
+table.tab_table {
+    border: 1px solid black;
+    padding: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    
+  }
+
+.tab button:hover{
+    background-color: #ddd;
+}
+.tab button.active{
+    background-color: #ccc;
+}
+
+.nav_btn{
+    width:240px;
+    height: 60px;  
+    background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 25px;
+  font-weight: bold;
+    
+}
+
+
+/* boat option */
+table.boat_option_table{
+    margin-top: 50px;
+    border: none;
+    padding: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px; 
+    width:240px;
+    height: 60px;  
+}
+
+.boat_option_table button:hover{
+    background-color: #ddd;
+}
+
+.boat_btn1{
+    width: 150px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color: inherit;
+    float: left;
+    border: 1px solid black;
+    
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+  }
+
+.boat_btn2{
+    width: 150px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color: inherit;
+    float: left;
+    border: 1px solid black;
+    
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+.boat_btn3{
+    width: 150px;
+    margin-left:100px;
+    margin-right: 100px;
+    background-color: inherit;
+    float: left;
+    border: 1px solid black;
+    
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+
+.choose_boat button.active{
+    background-color: #ccc;
+  }
+
+.inputForm{
+    margin-left: 10%;
+    margin-top: -50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#numSeat_txt{
+    margin-left: 10%;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: -44px;
+}
+#start_button{
+    margin-left: 20%;
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 5px;
+    
+}
+
+.boat_name{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+
+
+
+/* booking date */
+#datePicker{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 30%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* boat layout */
+
+
+.smallBox::before
+{
+  content:".";
+  width:100px;
+  height:100px;
+  float:left;
+  font-size: 20px;
+  
+  margin-top: -4px;
+  margin-right:10px;
+  margin-left: 35%;
+}
+.greenBox::before
+{
+
+  width: 70px;
+  height: 40px;  
+  content:"";
+  background:Green;
+}
+.redBox::before
+{
+    width: 70px;
+    height: 40px;  
+  content:"";
+  background:Red;
+}
+.emptyBox::before
+{
+    width: 70px;
+    height: 40px;  
+  content:"";
+  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    background-color:#ccc;
+}
+
+.seats
+{
+  border:1px solid red;background:yellow;
+} 
+
+
+
+.seatGap
+{
+  width:80px;
+}
+
+.seatVGap
+{
+  height:10px;
+}
+
+input[type=checkbox] {
+    width:0px;
+    margin-right:78px;
+    
+}
+
+input[type=checkbox]:before {
+    content: "";
+    width: 80px;
+    height: 50px;
+    display: inline-block;
+    vertical-align:middle;
+    text-align: center;
+    box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
+    background-color:#ccc;
+}
+
+input[type=checkbox]:checked:before {
+    background-color:Green;
+    font-size: 15px;
+}
+
+
+#row_num{
+    text-align: center;
+    font-size: 20px;
+}
+
+#nextBtn{
+    width: 130px;
+    height: 60px;
+    margin-top: 50px;
+    margin-left: 60%;
+    top: 1300px;
+    position:absolute;
+}
+
+#nextBtn2{
+    width: 130px;
+    height: 60px;
+    margin-top: 340px;
+    margin-left: 60%;
+    top: 1300px;
+    position:absolute;
+}
+
+
+
+/* weather stuff */
+
+
+
+
+.display 
+{
+    
+    text-align: center;
+    width: 300px;
+    color: black;
+    position: relative;
+    margin-left: 75%;
+    margin-top: -3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
